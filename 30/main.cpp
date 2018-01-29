@@ -71,9 +71,9 @@ public:
             }
         }
 
-        for(int i=0;i<comp_s.size();i++)
-           cout<<comp_s[i]<<" ";
-        cout<<endl;
+//        for(int i=0;i<comp_s.size();i++)
+//           cout<<comp_s[i]<<" ";
+//        cout<<endl;
 
 
         int compSize=comp_s.size();
@@ -84,7 +84,7 @@ public:
             if(-1==comp_s[i]){
                 continue;
             }
-            cout<<i<<endl;
+            //cout<<i<<endl;
             num_words_temp=num_words;
             int j=i;
             for(;j< i+ words_Num* words_Len; j+=words_Len){
